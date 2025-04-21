@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-Orbitron:"Orbitron", sans-serif;
+}
+.input-display{
+  @apply
+  bg-gray-200 w-110 h-20 text-4xl border-2 border-gray-700 rounded-2xl text-center font-Orbitron
+}
+.calculator{
+  @apply
+  container bg-gray-400 mx-70 mt-70 my-10 p-10 h-150 w-150 rounded-3xl border-2 border-gray-800
+}
+.btn-blue{
+  @apply
+  bg-blue-600  mt-5 mx-5 w-50 h-24 rounded-4xl text-4xl border-2 hover:bg-blue-400
+}
+.btn-container{
+  @apply
+  container grid grid-cols-2 gap-8 mt-3
+}
